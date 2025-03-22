@@ -38,10 +38,6 @@ class Tumor:
     none: float
         No treatment condition, set to 0
 
-    Methods 
-    -----
-
-
     """
     def __init__(self, k: int, r1: float, r2: float, dmax: float, d2: float, 
                  elimination_thres: int=1, x0: int=95, y0: int=5):
